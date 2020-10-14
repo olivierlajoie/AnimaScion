@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:descendantFocusability="blocksDescendants">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="64.5dp"
+        android:id="@+id/tableLayout1"
+        android:layout_marginTop="50px">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="254.0dp">
+            <TextView
+                android:text="@string/nomanimation"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/txtNomAnimation"
+                android:layout_width="149.0dp"
+                android:layout_marginTop="5.5dp" />
+            <TextView
+                android:layout_column="1"
+                android:id="@+id/txtContenuNomAnimation" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="@string/boucle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/txtBoucle" />
+            <TextView
+                android:layout_column="1"
+                android:id="@+id/txtContenuBoucle" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="@string/nbrsequence"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/txtNbrSequence" />
+            <TextView
+                android:layout_column="1"
+                android:id="@+id/txtContenuNbrSequence" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

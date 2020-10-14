@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/nomsequence"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAnimation"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="97.7dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="49.7dp"
+        android:id="@+id/spinnerAllSequence"
+        android:prompt="@string/spinnerPrompt"
+        android:layout_marginTop="6.3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center" />
+    <Button
+        android:text="@string/addSequence"
+        android:background="@drawable/button"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:id="@+id/buttonAjouterSequence"
+        android:layout_marginTop="30.0dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_gravity="center" />
+    <Button
+        android:text="@string/quitter"
+        android:background="@drawable/button"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:id="@+id/buttonQuitterSequence"
+        android:layout_marginRight="0.0dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_gravity="center" />
+</LinearLayout>

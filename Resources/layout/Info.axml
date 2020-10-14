@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/application"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/application"
+        android:gravity="center"
+        android:layout_marginTop="50px" />
+    <TextView
+        android:text="@string/version"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/version"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/dev"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dev"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/langage"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/langage"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/license"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idutilisateur"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/copyright"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyright"
+        android:gravity="center"
+        android:layout_marginTop="70px" />
+    <TextView
+        android:text="@string/droits"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/droits"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/annee"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/annee"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/createur"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createur"
+        android:gravity="center"
+        android:layout_marginBottom="50px" />
+    <Button
+        android:text="Fermer"
+        android:background="@drawable/button"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:id="@+id/buttonInfo"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true" />
+</LinearLayout>

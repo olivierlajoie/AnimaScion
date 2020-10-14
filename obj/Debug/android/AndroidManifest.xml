@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="AnimaScion.AnimaScion" android:installLocation="internalOnly">
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:launchMode="singleTop" android:splitMotionEvents="false" android:windowEnableSplitTouch="false" android:allowBackup="true" android:label="AnimaScion" android:theme="@android:style/Theme.Holo" android:name="mono.android.app.Application" android:icon="@mipmap/icon" android:debuggable="true">
+    <activity android:icon="@mipmap/icon" android:label="AnimaScion - Modifier Animation" android:name="md58c41b859624fa04b94878b64efdcd0e7.AnimationActivity" />
+    <activity android:icon="@mipmap/icon" android:label="AnimaScion" android:name="md58c41b859624fa04b94878b64efdcd0e7.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@mipmap/icon" android:label="AnimaScion - Modifier Séquence" android:name="md58c41b859624fa04b94878b64efdcd0e7.SequenceActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="AnimaScion.AnimaScion.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.AnimaScion.AnimaScion" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

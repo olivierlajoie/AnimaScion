@@ -1,0 +1,21 @@
+<resources>
+	<color name="theme_custom_background">#ffff9100</color>
+	<color name="theme_devicedefault_light_background">#fff50057</color>
+	<color name="theme_custom1_background">#fffff</color>
+	<color name="theme_devicedefault_light_darkactionbar_background">#ff777777</color>
+	<color name="theme_devicedefault_background">#ff00bfa5</color>
+	<style name="Theme.Custom" parent="@android:style/Theme.Custom1">
+		<item name="android:windowBackground">?android:attr/colorBackground</item>
+		<item name="android:colorBackground">@color/theme_custom_background</item>
+		<item name="android:textColorPrimary">#ff212121</item>
+		<item name="android:textColorSecondary">#ffffffff</item>
+	</style>
+	<style name="Theme.Custom1" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+		<item name="android:colorBackground">@color/theme_custom1_background</item>
+		<item name="android:windowBackground">?android:attr/colorBackground</item>
+	</style>
+	<style name="Theme.Custom2" parent="@android:style/Theme.DeviceDefault.Light">
+		<item name="android:colorBackground">@color/theme_devicedefault_light_background</item>
+		<item name="android:windowBackground">?android:attr/colorBackground</item>
+	</style>
+</resources>

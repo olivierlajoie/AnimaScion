@@ -1,0 +1,8 @@
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\AnimaScion.dll
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\Mono.Android.dll
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\mscorlib.dll
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\System.Core.dll
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\System.dll
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\System.Xml.dll
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\System.Runtime.Serialization.dll
+E:\Xamarin\AnimaScion\AnimaScion\obj\Debug\assemblies\System.ServiceModel.Internals.dll

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/menu"
+      android:title="@string/menu"
+      android:showAsAction="ifRoom">
+    <menu>
+      <item android:id="@+id/modifiersequence"
+        android:title="@string/modifiersequence"
+        android:showAsAction="ifRoom"/>
+
+      <item android:id="@+id/suprimersequence"
+        android:title="@string/suprimersequence"
+        android:showAsAction="ifRoom"/>
+
+      <item android:id="@+id/quitter"
+        android:title="@string/quitter"
+        android:showAsAction="ifRoom" />
+    </menu>
+  </item>
+</menu>

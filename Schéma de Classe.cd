@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AnimaScion.Vue.MainActivity">
+    <Position X="32.75" Y="6.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAhyBAIAQAAgABgIBBEAAAAAgDQAgAAAQEAAAIAAAAQ=</HashCode>
+      <FileName>Vue\MainActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="monControleur" />
+      <Field Name="monAdapteur" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="maListeAnimation" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AnimaScion.Vue.AnimationActivity">
+    <Position X="14.75" Y="6.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ASBVQBggYAAgABAABBAAAMAAgCQAwAgIAAAwAIAAAgA=</HashCode>
+      <FileName>Vue\AnimationActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="monControleur" />
+      <Field Name="monAdapteur" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="maListeSequence" />
+      <Field Name="maListeAllSequence" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AnimaScion.Controleur.ControleurAnimation">
+    <Position X="19.5" Y="7.75" Width="11.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEBBEIIBACAAAAAAAAAAAABFBAACIIAAAAAAEAAAA=</HashCode>
+      <FileName>Controleur\ControleurAnimaScion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="monAnimateur" />
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AnimaScion.Modele.Animateur">
+    <Position X="22.75" Y="12.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAIAABACAAAAQAAAAgAAAgBAAABIABAAAAAAAAA=</HashCode>
+      <FileName>Modele\Animateur.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="listeAnimation" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AnimaScion.Modele.Animation">
+    <Position X="21" Y="18.5" Width="8.75" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAEAgAQBAABEgQAAAAAAACAAAIAAAAAIAAQAAAE=</HashCode>
+      <FileName>Modele\Animation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="listeSequence" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AnimaScion.DTO.SequenceDTO">
+    <Position X="9.5" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\SequenceDTO.cs</FileName>
+      <NewMemberFileName>DTO\AnimationDTO.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.Sequence">
+    <Position X="23.5" Y="24.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkgAAAQAAAACAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\Sequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Adapteur.ListeSequenceAdapteur">
+    <Position X="14" Y="2.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAEAACAAAAAQAAAAAAAAAAQABAAAAAAA=</HashCode>
+      <FileName>Adapteur\ListeSequenceAdapteur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Adapteur.ListeAnimationAdapteur">
+    <Position X="31.75" Y="3" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAACAAAAAQAAAAAEAAAAAABAAAAAAA=</HashCode>
+      <FileName>Adapteur\ListeAnimationAdapteur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.DTO.AnimationDTO">
+    <Position X="37.75" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>DTO\AnimationDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.ChangeBrightness">
+    <Position X="0.5" Y="28" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAQAAIAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\ChangeBrightnessSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.Delay">
+    <Position X="13" Y="28" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEgAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\DelaySequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.DisplayCache">
+    <Position X="26.25" Y="28" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAQAAAAAAAAIAAAAAAAAAAACA=</HashCode>
+      <FileName>Modele\DisplayCacheSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.DrawCircle">
+    <Position X="39.5" Y="28" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEgAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\DrawCircleSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.DrawFromSD">
+    <Position X="4.25" Y="28" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAQAAAAAAAAIAAAACAAAAAAAA=</HashCode>
+      <FileName>Modele\DrawFromSDSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.DrawRectangle">
+    <Position X="16" Y="28" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAQAAAAAAACIAAAAAGAAAAAAA=</HashCode>
+      <FileName>Modele\DrawRectangleSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.DrawX">
+    <Position X="29.75" Y="28" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEgAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\DrawXSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.SendBuffer">
+    <Position X="44.25" Y="28" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAAIAAAAEgAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\SendBufferSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.SetCache">
+    <Position X="9.75" Y="28" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAQAAAAAAAAIAAAAAAAAAAACA=</HashCode>
+      <FileName>Modele\SetCacheSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.SetColor">
+    <Position X="22.25" Y="28" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAAAEgAAASAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\SetColorSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Modele.Shift">
+    <Position X="34.25" Y="28" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEgAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modele\ShiftSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimaScion.Vue.SequenceActivity">
+    <Position X="23.25" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAAgAiABACICCgAEAAgCAAwAACAACAAQAQAAQ=</HashCode>
+      <FileName>Vue\SequenceActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="monControleur" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
